@@ -4,16 +4,18 @@ Platform designed to ensure that all Python projects are using the latest availa
 
 ## Getting started
 
-git clone MagPy
-Use pip to install Pipenv:
+$ git clone MagPy
 
-$ pip install --user pipenv
+$ python -m venv venv
 
-$ pip install virtualenv
+$ source venv/bin/activate
 
 $ pip freeze > requirements.txt
 
 $ pip install -r requirements.txt
+
+$ ./manage.py runserver
+
 
 
 ## Deploying / Publishing
