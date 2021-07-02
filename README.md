@@ -23,6 +23,7 @@ Click [here](https://mag-py.herokuapp.com/) to visit the project
 
 ## Routes
 
+
 POST /api/projects - creates project
 GET /api/projects/name - list project by name
 DELETE /api/projects/name - delete cproject by name
@@ -31,13 +32,15 @@ DELETE /api/projects/name - delete cproject by name
 
 Creating project: POST /api/projects
 
-{
+
+```{
 "name": "titan"
 "packages": [
 {"name": "Django"},
 {"name": "graphene", "version": "2.0"}
 ]
 }
+```
 
 Getting project by name: GET /api/projects/titan
 
