@@ -43,5 +43,7 @@ Getting project by name: GET /api/projects/titan
 
 Deleting project by name: DELETE /api/projects/titan
 
-## Running the tests:
-Execute TEST=TEST python manage.py test
+## Running the tests at port 8000:
+
+k6 run -e API_BASE='http://localhost:8000/' tests-open.js
+
